@@ -55,6 +55,13 @@ class FizzBuzzTest {
 		assertEquals(7, input);
 		
 	}
+	@Test
+	void test8_input8() {
+		FizzBuzz fizzbuzz = new FizzBuzz();
+		int input = fizzbuzz.printStringinput(8);
+		assertEquals(8, input);
+		
+	}
 
 }
 
