@@ -13,5 +13,12 @@ class FizzBuzzTest {
 		assertEquals(1, input);
 		
 	}
+	@Test
+	void test2_input2() {
+		FizzBuzz fizzbuzz = new FizzBuzz();
+		int input = fizzbuzz.printStringinput(2);
+		assertEquals(2, input);
+		
+	}
 }
 
